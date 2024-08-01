@@ -1,0 +1,72 @@
+.container{
+    background-color: lavender;
+    color: darkgreen;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    padding: 15px;
+    margin: 20px;
+    font-size: 1.2em;
+    
+    /* span{
+        flex: 0 0 25%;
+    } */
+}
+.container span:nth-child(1){
+    flex: 0 5%;
+}
+.container span:nth-child(2){
+    flex: 0 20%;
+}
+.container span:nth-child(3){
+    flex: 0 10%;
+}
+.container span:nth-child(4){
+    flex: 0 40%;
+}
+.container span:nth-child(5){
+    flex: 0 25%;
+}
+
+.active{
+    color: green;
+    &:hover{
+        color: white;
+        background-color: brown;
+        cursor: pointer;
+    }
+}
+.cancelado{
+    color: red;
+}
+
+.spanTitle{
+    
+    color:black;
+}
+
+.title{
+    text-align: center;
+    color: rgb(27, 129, 95);
+}
+
+.modalDetail{
+    position: absolute; /*que no se mueva*/
+    top: 30%;
+    left: 20%;
+    border-radius: 1rem;
+    width: 50%;
+    padding: 50px;
+    background-color: paleturquoise;
+    box-shadow: 0 0 20px rgb(70, 68, 68);
+}
+
+.buttonDetail{
+    background-color: darkgreen;
+    border-style: none;
+    padding: 5rem;
+    border-radius: 1rem;
+}
+

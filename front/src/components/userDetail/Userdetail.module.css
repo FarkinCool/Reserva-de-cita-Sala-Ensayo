@@ -1,0 +1,18 @@
+.containerDetail{
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    align-items: center;
+    font-size: 0.8em;
+    text-align: justify;
+    background-color: rgba(82, 96, 107, 0.781);
+    border-radius: 5px;
+    color: aliceblue;
+    width: 500px;
+    justify-content: center;
+    margin-top: 10px;
+}
+.imgAvatar{
+    width: 250px;
+    height: 250px;
+}

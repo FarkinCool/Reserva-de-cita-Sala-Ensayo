@@ -1,0 +1,125 @@
+.navbarContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: darkgray;
+    color:lightcyan;
+    /* padding-bottom: 1em; */
+    align-items: center;
+    height: 10vh;
+    position: relative;
+}
+
+.logoSection{
+    display: flex;
+    flex-direction: row;
+    img{
+        height: 85px;
+        width: 200px;
+        margin-left: 10px;
+    }
+}
+.userSection{
+    /* display: flex; */
+    /* flex-direction: row; */
+
+    margin-right: 20px;
+    place-items: center;
+    
+}
+.userWithout{
+    display: flex;
+    flex-direction: row;
+
+    margin-right: 20px;
+    place-items: center;
+}
+
+
+.dropdownMenu{
+    position: absolute;
+    top: 65%;
+    right: 0;
+    background-color: white;
+    color: red;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    z-index: 1000;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.avatarSection{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    img{
+        height: 100%;
+        width: 25px;        
+    }
+    background-color: darkcyan;
+    padding: 1px 0 0 0;
+    font-size: 1.3em;
+    span:hover{
+        cursor: pointer; 
+        padding: 10px;
+    }
+    a:link,
+    :visited,
+    :hover,
+    :active {
+    text-decoration: none;
+    color: inherit;
+    }
+}
+
+.linkSection{
+    display: flex;
+    place-items: center;
+    align-items: flex-end;
+    padding: 10px 0 0 0;
+    gap: 1.5em;
+    font-size: 1.5em;
+    span:hover{
+        cursor: pointer; 
+        padding: 10px;
+    }
+    a:link,
+    :visited,
+    :hover,
+    :active {
+    text-decoration: none;
+    color: inherit;
+  }
+}
+
+.active span {
+    color: white;
+    background-color: darkcyan;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .inicioSesion{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(82, 4, 21);
+    padding: 1px 0 0 0;
+    font-size: 1.3em;
+    a:link,
+    :visited,
+    :hover,
+    :active {
+    text-decoration: none;
+    color: inherit;
+    }
+  }
+  .inicioSesion :hover{
+        cursor: pointer; 
+        padding: 10px;
+  }

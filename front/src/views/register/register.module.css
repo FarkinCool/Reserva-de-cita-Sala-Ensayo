@@ -1,0 +1,104 @@
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    margin-top: 5px;
+    position: relative;
+}
+
+.loginForm{
+    background: lavender;
+    padding: 10px 1.5em 1.5em 1.5em;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 900px;
+    text-align: center;
+    color: darkgreen;
+    font-size: 1.2em;
+}
+
+button {
+    width: 35%;
+    padding: 0.5em;
+    border: none;
+    border-radius: 4px;
+    background-color: darkgreen;
+    color: #fff;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button:disabled{
+    background-color: gray;
+    cursor: not-allowed;
+}
+
+.formGroup{
+    margin-bottom: 1em;
+    text-align: left;
+}
+
+.formGroup input{
+    width: 100%;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.formGroup label{
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+h2{
+    color: darkgreen;
+}
+
+.containerAvatar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 450px; /* Adjust the width as needed */
+    height: 400px;
+    border-radius: 8px;
+}
+
+.containerAvatar img{
+    width: 80%;
+    height: 85%;
+    object-fit: cover; 
+}
+
+.error{
+    color: red;
+}
+
+.containerUser{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.containerCredential{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.errorInput{
+    border: 2px solid red;
+}
+
+.errorLabel{
+    color: red;
+}
