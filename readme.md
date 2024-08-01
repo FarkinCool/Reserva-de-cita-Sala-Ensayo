@@ -1,4 +1,4 @@
-# PROYECTO DE MODULO 3 - SISTEMA DE RESERVA TURNOS
+# SISTEMA DE RESERVA TURNOS
 Es una aplicacion para hacer solicitar un turno en un solo click. 
 
 ## Historias del usuario(funcionalidades del sistema)
@@ -17,7 +17,3 @@ Es una aplicacion para hacer solicitar un turno en un solo click.
     *Para ello el usuario podra acceder a su cuenta con los datos que se registro.*
 7. **Como usuario registrado debo poder cerrar sesion cundo no seguire usando la plataforma.**<br>
     *Para ello el usuario podra salir o desconectarse de la sesion.*
-
-### Funcionalidades Extra(Extra Credit)
-8. Como usuario registrado al momento de cancelar o solicitar un turno debo recibir un mail de confirmacion.
-9. Como usuario registrado debe poder agregar una imagen o avatar a su cuenta.
